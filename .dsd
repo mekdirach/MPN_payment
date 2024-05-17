@@ -1,0 +1,7 @@
+{
+f:"SelectTransReversal",
+i:["a","d","e","f"],
+db:"mpn",
+t:80,
+sq:"SELECT * FROM V_TGB_TM_LIST_REVERSAL WHERE (tgb_tm_batch_id LIKE '%<a>%' OR tgb_tm_no_sakti LIKE '%<a>%' OR tgb_tm_nama_wajib_pajak LIKE '%<a>%' OR tgb_tm_nama_wajib_bayar LIKE '%<a>%' OR tgb_tm_bill_id LIKE '%<a>%' OR tgb_tm_npwp LIKE '%<a>%' OR tgb_tm_ntpn LIKE '%<a>%' OR tgb_tm_bank_refnum LIKE '%<a>%') AND (tgb_tm_bill_id LIKE '%<f>%') ORDER BY tgb_tm_tran_dt DESC LIMIT <e> OFFSET <d>"
+}

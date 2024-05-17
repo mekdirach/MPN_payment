@@ -1,0 +1,11 @@
+LAPORAN HARIAN PENERIMAAN
+Tanggal Buku|20230824
+Kode Bank|524110000990
+Nama Bank|PT BPD JAWA BARAT DAN BANTEN
+Nomor Rekening|0000823201360
+Mata Uang|IDR
+Jumlah Transaksi|1
+Jumah Penerimaan|25,000.00
+Pelimpahan Penerimaan
+Nomor Referensi Pelimpahan|Total Pelimpahan
+16/RC/AKU/240823|25,000.00

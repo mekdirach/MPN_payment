@@ -1,0 +1,11 @@
+LAPORAN HARIAN PENERIMAAN
+Tanggal Buku|20231208
+Kode Bank|524110000990
+Nama Bank|PT BPD JAWA BARAT DAN BANTEN
+Nomor Rekening|000101HQG5001
+Mata Uang|IDR
+Jumlah Transaksi|1
+Jumah Penerimaan|24,444.00
+Pelimpahan Penerimaan
+Nomor Referensi Pelimpahan|Total Pelimpahan
+16/RC/AKU/081223|24,444.00

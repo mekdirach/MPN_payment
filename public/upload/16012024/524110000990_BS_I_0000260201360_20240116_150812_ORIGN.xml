@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BANK_STATEMENT>
+  <ApplicationArea>
+    <ApplicationAreaSenderIdentifier>BJB</ApplicationAreaSenderIdentifier>
+    <ApplicationAreaReceiverIdentifier>SPAN</ApplicationAreaReceiverIdentifier>
+    <ApplicationAreaDetailSenderIdentifier/>
+    <ApplicationAreaDetailReceiverIdentifier/>
+    <ApplicationAreaCreationDateTime>20240116:150805</ApplicationAreaCreationDateTime>
+    <ApplicationAreaMessageIdentifier>524110000990_BS_I_0000260201360_20240116_150812</ApplicationAreaMessageIdentifier>
+    <ApplicationAreaMessageTypeIndicator>BS</ApplicationAreaMessageTypeIndicator>
+    <ApplicationAreaMessageVersionText>1.0</ApplicationAreaMessageVersionText>
+  </ApplicationArea>
+  <HeaderArea>
+    <BankCode>524110000990</BankCode>
+    <BankAccountNumber>0000260201360</BankAccountNumber>
+    <BankStatementDate>2023-10-16</BankStatementDate>
+    <Currency>IDR</Currency>
+    <BeginingBalance>26366294608.00</BeginingBalance>
+    <EndingBalance>26367774650.00</EndingBalance>
+  </HeaderArea>
+  <LineArea>
+    <LineNumber>1</LineNumber>
+    <BankTransactionCode>519100190036128</BankTransactionCode>
+    <DebitCredit>K</DebitCredit>
+    <BankReferenceNumber>519100190036128</BankReferenceNumber>
+    <TransactionDate>2022-11-03</TransactionDate>
+    <ValueDate>2022-11-03</ValueDate>
+    <OriginalAmount>8069.00</OriginalAmount>
+  </LineArea>
+  <LineArea>
+    <LineNumber>2</LineNumber>
+    <BankTransactionCode>519100190036128</BankTransactionCode>
+    <DebitCredit>K</DebitCredit>
+    <BankReferenceNumber>519100190036128</BankReferenceNumber>
+    <TransactionDate>2022-11-03</TransactionDate>
+    <ValueDate>2022-11-03</ValueDate>
+    <OriginalAmount>8069.00</OriginalAmount>
+  </LineArea>
+  <Footer>
+    <TotalCount>2</TotalCount>
+    <TotalAmount>16138.00</TotalAmount>
+  </Footer>
+</BANK_STATEMENT>

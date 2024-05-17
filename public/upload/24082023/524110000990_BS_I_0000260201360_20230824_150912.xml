@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+<SOAP-ENV:Header>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<ds:Reference URI="">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>YvF+pq7+UsDW8ymcgbOxG8hskBg=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>FNbeRk03WFiWNB/gOExLUHdPqU2pswsWpBDEAnHuDiG2m2X18ASrb8TRwU28a6NZVw1NLp/anGcf
+BOW/YHCImxF3anL5KiaTGipu25xwAHf0YSmrGgKsL8QkEhZ4PHV+FOz+PWmdV4F93Zwi16h+5xBM
+9iQAHyTSPVca14j866c=</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:X509Data>
+<ds:X509SubjectName>CN=BJB MPN_G2,OU=PRODUCTION,O=BANK BJB,L=BANDUNG,ST=WEST JAVA,C=ID</ds:X509SubjectName>
+<ds:X509Certificate>MIICVzCCAcCgAwIBAgIEVLfBijANBgkqhkiG9w0BAQUFADBwMQswCQYDVQQGEwJJRDESMBAGA1UE
+CBMJV0VTVCBKQVZBMRAwDgYDVQQHEwdCQU5EVU5HMREwDwYDVQQKEwhCQU5LIEJKQjETMBEGA1UE
+CxMKUFJPRFVDVElPTjETMBEGA1UEAwwKQkpCIE1QTl9HMjAeFw0xNTAxMTUxMzMyNThaFw0yNDEx
+MjMxMzMyNThaMHAxCzAJBgNVBAYTAklEMRIwEAYDVQQIEwlXRVNUIEpBVkExEDAOBgNVBAcTB0JB
+TkRVTkcxETAPBgNVBAoTCEJBTksgQkpCMRMwEQYDVQQLEwpQUk9EVUNUSU9OMRMwEQYDVQQDDApC
+SkIgTVBOX0cyMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC3hltk83T53UlWQNIr0dWPlUq7
+dNC1caaiVipmln5TChHKlK9sACUe+ZZfDcocGIh3AGM5mo0WXuPku+6Pwb/X5fAir9ul6yk5qI5o
+ggaFMGOYRnVz00Mcl4xGjs6lOpP2bzlW/9Z22zrOCHV7pFaFHBPgKtNb8bIRgSKfvPON2QIDAQAB
+MA0GCSqGSIb3DQEBBQUAA4GBAHOOqoWKPbLwln1My9CoQaMKxyh3YC+ax15XR39vBiMC0qfjLY1A
+hPsFIvg3tlg1UUDvrZo45dLB1W10n484hvUdbGNymvV5ws9WQ7TY7xVqgclCMvpEUeRpIzZCgqNJ
+usan9wsNFn5iRuiJmBWvQ8a4wWxthc0WTJqHF/TqhHxW</ds:X509Certificate>
+</ds:X509Data>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>t4ZbZPN0+d1JVkDSK9HVj5VKu3TQtXGmolYqZpZ+UwoRypSvbAAlHvmWXw3KHBiIdwBjOZqNFl7j
+5Lvuj8G/1+XwIq/bpespOaiOaIIGhTBjmEZ1c9NDHJeMRo7OpTqT9m85Vv/Wdts6zgh1e6RWhRwT
+4CrTW/GyEYEin7zzjdk=</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+</ds:KeyInfo>
+</ds:Signature>
+</SOAP-ENV:Header>
+<SOAP-ENV:Body>
+<BANK_STATEMENT>
+  <ApplicationArea>
+    <ApplicationAreaSenderIdentifier>BJB</ApplicationAreaSenderIdentifier>
+    <ApplicationAreaReceiverIdentifier>SPAN</ApplicationAreaReceiverIdentifier>
+    <ApplicationAreaDetailSenderIdentifier/>
+    <ApplicationAreaDetailReceiverIdentifier/>
+    <ApplicationAreaCreationDateTime>20230824:150930</ApplicationAreaCreationDateTime>
+    <ApplicationAreaMessageIdentifier>524110000990_BS_I_0000260201360_20230824_150912</ApplicationAreaMessageIdentifier>
+    <ApplicationAreaMessageTypeIndicator>BS</ApplicationAreaMessageTypeIndicator>
+    <ApplicationAreaMessageVersionText>1.0</ApplicationAreaMessageVersionText>
+  </ApplicationArea>
+  <HeaderArea>
+    <BankCode>524110000990</BankCode>
+    <BankAccountNumber>0000260201360</BankAccountNumber>
+    <BankStatementDate>2023-07-13</BankStatementDate>
+    <Currency>IDR</Currency>
+    <BeginingBalance>17980201268.00</BeginingBalance>
+    <EndingBalance>39171399148.00</EndingBalance>
+  </HeaderArea>
+  <LineArea>
+    <LineNumber>1</LineNumber>
+    <BankTransactionCode>820230711833282</BankTransactionCode>
+    <DebitCredit>K</DebitCredit>
+    <BankReferenceNumber>820230711833282</BankReferenceNumber>
+    <TransactionDate>2023-07-13</TransactionDate>
+    <ValueDate>2023-07-13</ValueDate>
+    <OriginalAmount>50000.00</OriginalAmount>
+  </LineArea>
+  <Footer>
+    <TotalCount>1</TotalCount>
+    <TotalAmount>50000.00</TotalAmount>
+  </Footer>
+</BANK_STATEMENT>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
